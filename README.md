@@ -18,11 +18,11 @@ Singleton, Observer, Mediator, Builder, Proxy, Chain of Responsibility
 
 ```bash
 git clone https://github.com/sukizzzzz/driveshareCar.git
-cd driveshare
-python3 -m venv venv
-source venv/bin/activate
+cd driveshareCar
+python -m venv venv
+source venv/Scripts/activate
 pip install -r requirements.txt
-python3 app.py
+python app.py
 ```
 
 ## Stack
