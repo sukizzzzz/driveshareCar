@@ -30,3 +30,5 @@ Python 3.11 · Tkinter · SQLite · bcrypt · tkcalendar
 
 ## Team
 Ayat Mohamed
+Tamani Almaweri
+Zaynab Abdallah
