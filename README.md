@@ -17,6 +17,7 @@ Singleton, Observer, Mediator, Builder, Proxy, Chain of Responsibility
 ## Setup
 
 ```bash
+run it in gitbash
 git clone https://github.com/sukizzzzz/driveshareCar.git
 cd driveshareCar
 python -m venv venv
