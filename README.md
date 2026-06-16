@@ -1,30 +1,41 @@
 # DriveShare: Peer-to-Peer Car Rental Platform
 
-A desktop car rental app built with Python and Tkinter, inspired by Turo. Car owners can list vehicles and set availability, renters can search, book, and pay. Built for CIS 476 at University of Michigan-Dearborn.
+DriveShare is a desktop-based car rental application built with Python and Tkinter, inspired by Turo. It allows vehicle owners to list their cars and manage availability, while renters can search, book, and pay for rentals. This project was developed for CIS 476 at the University of Michigan–Dearborn.
 
 ## Features
-- Role-based registration (Owner / Renter / Both)
-- Car listings with availability calendar
-- Search, book, and pay for rentals
-- In-app messaging between owners and renters
-- Password recovery via security questions
+
+- Role-based user system (Owner, Renter, or Both)
+- Vehicle listing with availability scheduling
+- Search, booking, and payment functionality
+- In-app messaging between renters and car owners
+- Password recovery using security questions
 - Booking conflict prevention
-- Reviews and rental history
+- Review system and rental history tracking
 
 ## Design Patterns Used
+
 Singleton, Observer, Mediator, Builder, Proxy, Chain of Responsibility
 
-## Setup
+## Setup Instructions
 
 ```bash
-run it in gitbash
+# Clone the repository
 git clone https://github.com/sukizzzzz/driveshareCar.git
+
+# Navigate into the project directory
 cd driveshareCar
+
+# Create a virtual environment
 python -m venv venv
+
+# Activate the virtual environment (Git Bash)
 source venv/Scripts/activate
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the application
 python app.py
-```
 
 ## Stack
 Python 3.11 · Tkinter · SQLite · bcrypt · tkcalendar
