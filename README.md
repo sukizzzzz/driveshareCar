@@ -36,10 +36,10 @@ pip install -r requirements.txt
 
 # Run the application
 python app.py
-
+'''
 ## Stack
 Python 3.11 · Tkinter · SQLite · bcrypt · tkcalendar
-
+''''
 ## Team
 Ayat Mohamed
 Tamani Almaweri
